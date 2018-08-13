@@ -28,6 +28,7 @@ def construct_string_from_list(my_list):
         my_string += ','
     return my_string[:-1]
 
+
 def extract_alexa_skill_name(json_input_to_lambda):
     return json_input_to_lambda['request']['intent']['name']
 

@@ -1,0 +1,49 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "flubs with",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "words",
+                    "slots": [
+                        {
+                            "name": "word",
+                            "type": "RAJ_VALUE"
+                        }
+                    ],
+                    "samples": [
+                        "say {word}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "RAJ_VALUE",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "A B C"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
